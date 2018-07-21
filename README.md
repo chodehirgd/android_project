@@ -1,1 +1,1 @@
-android project\n
+android project
