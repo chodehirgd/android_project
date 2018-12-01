@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 title1.setText(Et1.getText().toString());
+                //test branch
             }
         });
     }
