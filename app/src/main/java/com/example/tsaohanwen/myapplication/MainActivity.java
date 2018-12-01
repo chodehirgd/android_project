@@ -23,8 +23,8 @@ public class MainActivity extends AppCompatActivity {
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                title1.setText(Et1.getText().toString()+"test");
-                //test
+                title1.setText(Et1.getText().toString());
+                //test branch
             }
         });
     }
