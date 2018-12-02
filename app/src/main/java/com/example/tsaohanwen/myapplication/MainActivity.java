@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
         button1 = (Button)findViewById(R.id.button1);
         title1 = (TextView)findViewById(R.id.title1);
         Et1 = (EditText)findViewById(R.id.Et1);
+        String value = getIntent().getStringExtra("value");
+        title1.setText(value);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
