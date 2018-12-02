@@ -19,13 +19,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         button1 = (Button)findViewById(R.id.button1);
         title1 = (TextView)findViewById(R.id.title1);
-        String value = getIntent().getStringExtra("value");
         Et1 = (EditText)findViewById(R.id.Et1);
-        title1.setText(value);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 title1.setText(Et1.getText().toString());
+                //test branch
             }
         });
     }
